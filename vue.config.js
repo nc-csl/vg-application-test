@@ -20,13 +20,6 @@ module.exports = {
     plugins: [
       new LodashModuleReplacementPlugin()
     ],
-    resolve: {
-      alias: {
-        vue: path.resolve('./node_modules/vue'),
-        axios: path.resolve('./node_modules/axios'),
-        'vue-axios': path.resolve('./node_modules/vue-axios'),
-      }
-    },
     optimization: {
       minimize: true
     }

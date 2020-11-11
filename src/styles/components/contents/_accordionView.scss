@@ -1,4 +1,4 @@
-.accordion-wrapper.ydelse {
+.accordion-wrapper {
   & > :last-child {
     margin-bottom: 32px;
   }
@@ -19,7 +19,6 @@
       }
 
       .accordion-button[aria-expanded='false'] {
-        background-image: url('/src/assets/accordion-open.svg');
         border-radius: 4px;
 
         .h5 {
@@ -28,8 +27,6 @@
       }
 
       .accordion-button[aria-expanded='false']:hover {
-        background-image: url('/src/assets/accordion-open_hover.svg');
-
         .h5 {
           color: $color-redaktion-lightbg-active;
           font-weight: bold;
@@ -37,7 +34,6 @@
       }
 
       .accordion-button[aria-expanded='true'] {
-        background-image: url('/src/assets/accordion-close.svg');
         border-radius: 4px 4px 0px 0px;
 
         .h5 {
@@ -46,8 +42,6 @@
       }
 
       .accordion-button[aria-expanded='true']:hover {
-        background-image: url('/src/assets/accordion-close_hover.svg');
-
         .h5 {
           color: $color-redaktion-lightbg-active;
           font-weight: bold;
