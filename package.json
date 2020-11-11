@@ -76,9 +76,5 @@
     "vuetable-2": "^1.7.5",
     "webpack": "^4.44.1",
     "webpack-bundle-analyzer": "^3.8.0"
-  },
-  "description": "Install node modules\r ```\r npm install\r ```",
-  "main": ".eslintrc.js",
-  "author": "ERST",
-  "license": "ISC"
+  }
 }
