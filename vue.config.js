@@ -46,5 +46,6 @@ module.exports = {
       preProcessor: 'scss',
       patterns: [path.resolve(__dirname, './src/styles/global.scss')]
     }
-  }
+  },
+  runtimeCompiler: true
 };

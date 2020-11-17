@@ -3,6 +3,9 @@
     <h1>ERST widget</h1>
     {{currentTime}}
     <hr>
+    Dynamisk komponent:
+    <dynamic-component text="Jeg er en dynamisk komponent"></dynamic-component>
+    <hr>
     <a href="http://www.google.com" target="_blank">Link til Google</a>
     <div class="spinner" v-if="loadingResponse" aria-label="Henter indhold" />
     {{response}}
@@ -57,8 +60,16 @@ import { Component, Vue } from 'vue-property-decorator';
 import axios from 'axios';
 import { DateTime } from 'luxon';
 
+var dynamicComponent = {
+  template: '<div>{{text}}</div>',
+  props: ['text'],
+};
+
 @Component({
-  name: 'Widget'
+  name: 'Widget',
+  components: {
+    dynamicComponent
+  }
 })
 export default class Widget extends Vue {
   private currentTime = '';
