@@ -4,7 +4,7 @@
       <GlobalSvgIcons></GlobalSvgIcons>
       <GlobalNav></GlobalNav>
       <div class="flexgrow container pt-8 pb-8">
-        <Widget></Widget>
+        <Applikation></Applikation>
       </div>
       <GlobalFooter></GlobalFooter>
     </div>
@@ -16,13 +16,13 @@ import { Component, Vue } from 'vue-property-decorator';
 import GlobalNav from '@/components/GlobalNav.vue';
 import GlobalFooter from '@/components/GlobalFooter.vue';
 import * as DKFDS from 'dkfds';
-import Widget from '@/components/Widget.vue';
+import Applikation from '@/components/Applikation.vue';
 import GlobalSvgIcons from '@/components/GlobalSvgIcons.vue';
 
 @Component({
   components: {
     GlobalSvgIcons,
-    Widget,
+    Applikation,
     GlobalNav,
     GlobalFooter
   }

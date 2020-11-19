@@ -1,6 +1,6 @@
 <template>
-  <div class="widget-container">
-    <h1>ERST widget</h1>
+  <div class="applikation-container">
+    <h1>ERST applikation</h1>
     {{currentTime}}
     <hr>
     Dynamisk komponent:
@@ -66,12 +66,12 @@ var dynamicComponent = {
 };
 
 @Component({
-  name: 'Widget',
+  name: 'Applikation',
   components: {
     dynamicComponent
   }
 })
-export default class Widget extends Vue {
+export default class Applikation extends Vue {
   private currentTime = '';
   private response = {};
   private error = {};

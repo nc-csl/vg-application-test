@@ -1,5 +1,5 @@
 {
-  "name": "vg-widget-test",
+  "name": "vg-application-test",
   "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service serve",
