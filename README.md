@@ -14,9 +14,13 @@ Access localhost (complete url is written after npm run serve)
 
 Start developing/testing your application in Applikation.vue (placed in components folder)
 
-Lint and fix your application
+Lint and prettierfix your application
 ```
 npm run lint
 ```
 
-When development is finished, copy Applikation.vue content and send it to review
+```
+npm run prettierfix
+```
+
+When development is finished, upload Applikation.vue to Git repository and send it to review
