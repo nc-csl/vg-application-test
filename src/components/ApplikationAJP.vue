@@ -111,8 +111,6 @@ export default class Applikation extends Vue {
 }
 </script>
 <style lang="scss" scoped>
-  @import '../../node_modules/dkfds-plugins/dist/css/dkfds-pikaday-theme.standalone.min.css';
-
   #datepicker {
     max-width: 400px;
   }
